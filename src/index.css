@@ -6,12 +6,16 @@
 
 body {
   scroll-behavior: smooth;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 ul,
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {

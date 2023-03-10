@@ -4,10 +4,12 @@ import "./style.css";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar container">
-        <div className="nav__container">
-          <div className="logo">Ruan Victor</div>
-          <ul>
+      <div className="navbar">
+        <div className="container nav__container">
+          <div className="logo">
+            <a href="#">Ruan Victor</a>
+          </div>
+          <ul className="nav__list">
             <li>
               <a href="#">Home</a>
             </li>
